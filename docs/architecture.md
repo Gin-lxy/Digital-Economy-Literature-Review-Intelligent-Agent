@@ -1,4 +1,4 @@
-# RAG Scholar Agent 架构说明
+# Digital-Economy-Literature-Review-Intelligent-Agent 架构说明
 
 ## 1. 产品形态
 

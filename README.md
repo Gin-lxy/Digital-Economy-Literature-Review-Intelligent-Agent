@@ -1,6 +1,6 @@
-# RAG Scholar Agent
+# Digital-Economy-Literature-Review-Intelligent-Agent
 
-`RAG Scholar Agent` 是一个面向文献综述场景的成熟型 agent 产品仓库，而不是课程作业式 demo 堆叠。主产品入口为 `FastAPI + React` Web 应用，负责检索编排、元数据过滤、生成、证据展示和导出；`Streamlit` 保留为内部运维工作台，用于 PDF 增量入库、索引维护与质量检查。
+`Digital-Economy-Literature-Review-Intelligent-Agent` 是一个面向文献综述场景的成熟型 agent 产品仓库，而不是课程作业式 demo 堆叠。主产品入口为 `FastAPI + React` Web 应用，负责检索编排、元数据过滤、生成、证据展示和导出；`Streamlit` 保留为内部运维工作台，用于 PDF 增量入库、索引维护与质量检查。
 
 ## 产品定位
 
@@ -56,11 +56,14 @@ python scripts/build_index.py --max-chunks 2000 --batch-size 256
 ```bash
 python -m uvicorn backend:app --reload --host 0.0.0.0 --port 8000
 ```
+
 新建终端，启动前端：
+
 ```bash
 cd web && npm run dev
 ```
-1. 可选：启动内部运维工作台
+
+5. 可选：启动内部运维工作台
 
 ```bash
 streamlit run app_agent_ui.py

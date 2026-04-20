@@ -1,4 +1,4 @@
-# RAG Scholar Agent 运行手册
+# Digital-Economy-Literature-Review-Intelligent-Agent 运行手册
 
 ## 1. 环境要求
 
